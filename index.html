@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/Logo.png" alt="Logotipo de Alura" class="logo">
+    </header>
+
+    <main class="main">
+        <div class="seccion__de__entrada">
+            <textarea id="textoIngresado" placeholder="Ingresa tu texto:"></textarea>
+            <div class="botones">
+                <button class="botones__oscuros" id="Encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="botones__claros" id="Desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        
+        <div class="seccion__de__salida">
+            <textarea id="textoSalida" placeholder="Ningún mensaje fue encontrado"></textarea>
+            <button class="botones__claros" id="Copiar" onclick="botonCopiar()">Copiar</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        Desarrollado por Amanda Gutierman - HelloONE G7 2024 - Oracle + AluraLatam.
+    </footer>
+
+    <script src="app.js"></script>   
+</body>
+</html>
